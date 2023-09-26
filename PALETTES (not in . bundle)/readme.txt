@@ -1,0 +1,7 @@
+Move the .gpl, .pal, .act, .aco, .colors, .xml, .sbz, .acb or .ase  files to the source folder and run the installation file
+
+
+Target folder: C:\Users\%USERNAME%\AppData\Roaming\krita\palettes
+
+
+
