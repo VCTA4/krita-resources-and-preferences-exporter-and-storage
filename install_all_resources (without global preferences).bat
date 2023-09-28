@@ -7,6 +7,9 @@ call ".\install.bat"
 cd "..\(PLUGINS) PYKRITA\"
 call ".\install.bat"
 
+cd "..\PREDEFINED_IMAGE_SIZES\"
+call ".\install.bat"
+
 cd "..\AUTHORINFO\"
 call ".\install.bat"
 

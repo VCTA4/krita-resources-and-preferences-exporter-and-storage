@@ -10,6 +10,9 @@ call ".\reset_to_default.bat"
 cd "..\(PLUGINS) PYKRITA\"
 call ".\clear_target_folder.bat"
 
+cd "..\PREDEFINED_IMAGE_SIZES\"
+call ".\clear_target_folder.bat"
+
 cd "..\AUTHORINFO\"
 call ".\clear_target_folder.bat"
 
