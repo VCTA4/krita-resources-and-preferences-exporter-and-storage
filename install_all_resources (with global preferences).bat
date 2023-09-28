@@ -1,4 +1,7 @@
-cd ".\(COLOR) PROFILES\"
+cd ".\(color-schemes) THEMES\"
+call ".\install.bat"
+
+cd "..\(COLOR) PROFILES\"
 call ".\install.bat"
 
 cd "..\(GLOBAL) PREFERENCES\"
@@ -7,10 +10,16 @@ call ".\install.bat"
 cd "..\(PLUGINS) PYKRITA\"
 call ".\install.bat"
 
+cd "..\AUTHORINFO\"
+call ".\install.bat"
+
 cd "..\BRUSH_TIPS (not in .bundle)\"
 call ".\install.bat"
 
 cd "..\BUNDLES\"
+call ".\install.bat"
+
+cd "..\CANVAS INPUT SETTINGS\"
 call ".\install.bat"
 
 cd "..\GAMUT_MASKS (not in .bundle)\"
@@ -29,6 +38,9 @@ cd "..\PATTERNS (not in . bundle)\"
 call ".\install.bat"
 
 cd "..\SEEXPR___for fill layer___(not in .bundle)\"
+call ".\install.bat"
+
+cd "..\SHORTCUTS\"
 call ".\install.bat"
 
 cd "..\TEMPLATES\"
